@@ -1,1 +1,5 @@
-﻿console.log("hello git");
+﻿function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("Git"));
